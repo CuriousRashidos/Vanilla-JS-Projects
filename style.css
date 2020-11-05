@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/snow-background.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-position: center center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin-top: -10rem;
+  font-size: 4rem;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  line-height: 1;
+  margin: 0 2rem;
+  font-size: 6em;
+  font-weight: 700;
+}
+
+.countdown-span {
+  text-align: center;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .big-text {
+    font-size: 1rem;
+  }
+}
